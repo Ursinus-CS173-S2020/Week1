@@ -11,6 +11,7 @@ public class Modulus {
         int a = in.nextInt();
         System.out.println("What do you want to divide it by?");
         int b = in.nextInt();
-        System.out.println(a + " goes into " + b + " " + a/b + " times");
+        System.out.println(b + " goes into " + a + " " + a/b + " times");
+        System.out.println(a + " divided by " + b + " has remainder " + a%b);
     }
 }
